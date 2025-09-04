@@ -683,4 +683,5 @@ plot(freq_axis, fft_spec(1:N_fft/2));
 xlabel('频率 (MHz)');
 ylabel('归一化幅度');
 title(['信道', num2str(channel_idx), '的频谱（采样率', num2str(fs/1e9), 'GHz）']);
+
 grid on;
